@@ -2784,16 +2784,14 @@ var TemplateList = map[string]string{"403": `<div class="missing-content">
         </div>
     </aside>
 {{end}}`, "footer": `{{define "footer"}}
-    <footer class="main-footer">
-        <div class="pull-right hidden-xs">
-            <b>Version</b> {{.System.Version}}
+<footer class="main-footer" style="padding: 16px 24px; background-color: #f9f9f9; border-top: 1px solid #e0e0e0; font-size: 14px; color: #444;">
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+        <div style="display: flex; align-items: center; gap: 12px;">
+            <img src="{{.UrlPrefix}}/assets/dist/img/stsmainlogo.png" alt="STS" style="height: 24px;">
+            <strong>© 2025, JSC "State Technical Service"</strong>
         </div>
-        <div class="pull-right hidden-xs">
-            <b>Theme</b> {{.System.Theme}}&nbsp;&nbsp;
-        </div>
-        <strong>Powered by <a href="https://github.com/GoAdminGroup/go-admin">GoAdmin</a>.</strong>
-        {{.FooterInfo}}
-    </footer>
+    </div>
+</footer>
 {{end}}`, "head": `{{define "head"}}
     <head>
         <meta charset="utf-8">
