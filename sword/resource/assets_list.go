@@ -26,6 +26,8 @@ var AssetsList = []string{
 	"/dist/fonts/ionicons.woff",
 	"/dist/img/avatar04.png",
 	"/dist/img/clear.png",
+	"/dist/img/stsmainlogo.svg",
+	"/dist/img/stsmainlogo.png",
 	"/dist/img/loading.gif",
 	"/dist/img/plugin_default.png",
 	"/dist/img/plugin_more.png",
