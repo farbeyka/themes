@@ -16,7 +16,7 @@ package main
 
 import (
 	...
-	_ "github.com/GoAdminGroup/themes/adminlte"
+	_ "github.com/farbeyka/themes/adminlte"
 	...
 )
 
