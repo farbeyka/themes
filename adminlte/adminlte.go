@@ -3,9 +3,9 @@ package adminlte
 import (
 	"strings"
 
-	adminTemplate "github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/components"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	adminTemplate "github.com/farbeyka/go-admin/template"
+	"github.com/farbeyka/go-admin/template/components"
+	"github.com/farbeyka/go-admin/template/types"
 	"github.com/farbeyka/themes/adminlte/resource"
 	"github.com/farbeyka/themes/common"
 )
